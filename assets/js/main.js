@@ -1,9 +1,5 @@
-const numbers = [65, 44, 32, 4];
-numbers.forEach((item, index, arr) => {
-  let text = `  item = ${item}
-
-  index = ${index}
-
-  array = ${arr}`;
-  console.log(text);
-});
+document.getElementById("mybtn").addEventListener("click", () =>
+  fetch("users.json")
+    .then((res) => res.json())
+    .then((json) => console.log(json))
+);
