@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "mostafa",
+    "email": "mostafa@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "mohsen",
+    "email": "mohsen@gmail.com"
+  },
+  {
+    "id": 3,
+    "name": "ali",
+    "email": "ali@gmail.com"
+  }
+]
+    <button id="mybtn">Get users</button>
+
