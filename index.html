@@ -11,7 +11,13 @@
 
 <body>
     <button id="mybtn">Get users</button>
-    <script src="./assets/js/main.js"></script>
+
+    <script>document.getElementById("mybtn").addEventListener("click", () => {
+            fetch("users.json")
+                .then((res) => res.json())
+                .then((json) => console.log(json));
+        });
+    </script>
 </body>
 
 </html>

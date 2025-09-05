@@ -1,5 +1,5 @@
-document.getElementById("mybtn").addEventListener("click", () =>
-  fetch("users.json")
-    .then((res) => res.json())
-    .then((json) => console.log(json))
-);
+// document.getElementById("mybtn").addEventListener("click", () => {
+//   fetch("/users.json")
+//     .then((res) => res.json())
+//     .then((json) => console.log(json));
+// });
