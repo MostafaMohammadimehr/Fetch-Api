@@ -1,7 +1,7 @@
 const mybtn = document.getElementById("gettext");
-
-mybtn.addEventListener("click", () => {
+let FEtch = () => {
   fetch("/sample.txt")
     .then((res) => res.text())
     .then((data) => console.log(data));
-});
+};
+mybtn.addEventListener("click", FEtch);
